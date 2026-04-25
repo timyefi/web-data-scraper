@@ -1,13 +1,14 @@
-# 脚手架代码不包含在开源版本中
+# 未包含在开源版本中的目录
 scripts/
+references/
+assets/
 
 # Python 缓存
 __pycache__/
 *.pyc
 *.pyo
 
-# 大文件（录屏视频通过 Release 或网盘分发）
-*.mp4
+# 大文件（仅保留演示录屏，其他视频格式忽略）
 *.avi
 *.mov
 *.mkv
