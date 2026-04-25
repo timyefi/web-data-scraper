@@ -8,7 +8,8 @@ __pycache__/
 *.pyc
 *.pyo
 
-# 大文件（仅保留演示录屏，其他视频格式忽略）
+# 大文件（视频通过 Release 分发）
+*.mp4
 *.avi
 *.mov
 *.mkv
