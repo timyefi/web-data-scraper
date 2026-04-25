@@ -1,0 +1,22 @@
+# 脚手架代码不包含在开源版本中
+scripts/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 大文件（录屏视频通过 Release 或网盘分发）
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/

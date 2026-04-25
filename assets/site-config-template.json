@@ -1,0 +1,63 @@
+{
+  "_comment": "网站配置模板 - 记录已发现的网站结构和API端点，供后续复用",
+  "site_name": "",
+  "base_url": "",
+  "description": "",
+
+  "data_loading": "unknown",
+
+  "strategy": {
+    "primary": "auto",
+    "fallback": "playwright"
+  },
+
+  "api_endpoints": {
+    "search": "",
+    "list": "",
+    "detail": "",
+    "download": "",
+    "bootstrap_url": ""
+  },
+
+  "api_params": {
+    "search": {},
+    "list": {
+      "page_key": "pageNum",
+      "page_size_key": "pageSize",
+      "page_size": 30
+    }
+  },
+
+  "selectors": {
+    "search_input": "",
+    "search_button": "",
+    "filter_dropdowns": [],
+    "result_list": "",
+    "result_item": "",
+    "next_page": "",
+    "prev_page": "",
+    "detail_link": "",
+    "download_button": "",
+    "data_table": "",
+    "date_picker": ""
+  },
+
+  "pagination": {
+    "type": "traditional",
+    "max_pages": 10,
+    "sleep_between_pages": 2.0
+  },
+
+  "anti_detection": {
+    "needs_session": false,
+    "needs_cookies": false,
+    "rate_limit_seconds": 1.0,
+    "user_agent_rotation": false,
+    "captcha_possible": false
+  },
+
+  "output": {
+    "formats": ["csv", "md"],
+    "download_dir": "./downloads"
+  }
+}
